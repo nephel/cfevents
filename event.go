@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const eventUrl = "http://hottopic.apps.bogata.cf-app.com/map"
+const eventUrl = "http://hottopic.bosh-lite.com/map"
 
 type eventHandler func(payload map[string]interface{})
 
